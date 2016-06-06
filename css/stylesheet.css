@@ -1,0 +1,61 @@
+body {
+  background-color: #258ec8;
+}
+
+.container {
+  background-color: #fff;
+  margin: 40px auto;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#profileImg img {
+	width: 17%;
+}
+
+#profileBio {
+  margin: 15px 0;
+}
+
+#profileBio p {
+  color: #000;
+  line-height: 12px;
+}
+
+#profileBio p span {
+  color: #258ec8;
+  margin-left: 10px;
+  font-weight:bold;
+}
+
+#profileCount {
+  color: #258ec8;
+}
+
+/*modify bootstrap buttons*/
+
+.btn {
+  padding: 4px 14px;
+  border: 0 none;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin: 20px 10px;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+  outline: 0 none;
+}
+
+.btn-primary {
+  background: #258ec8;
+  color: #ffffff;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  background: #33a6cc;
+}
+
+.btn-primary:active, .btn-primary.active {
+  background: #007299;
+  box-shadow: none;
+}
